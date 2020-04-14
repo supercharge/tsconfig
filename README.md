@@ -39,14 +39,14 @@ Create a  `tsconfig.json` file in your project and add the following content:
 
 ```json
 {
-	"extends": "@supercharge/tsconfig",
-	"compilerOptions": {
-		"outDir": "dist",
-		"target": "es2018",
-		"lib": [
-			"es2018"
-		]
-	}
+  "extends": "@supercharge/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es2018",
+    "lib": [
+      "es2018"
+    ]
+  }
 }
 ```
 
