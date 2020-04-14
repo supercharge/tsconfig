@@ -35,7 +35,7 @@ npm i -D @supercharge/tsconfig
 
 
 ## Usage
-Create a  `tsconfig.json` file in your project and add the following content:
+Create a  `tsconfig.json` file in your project and extends the `@supercharge/tsconfig` [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html):
 
 ```json
 {
