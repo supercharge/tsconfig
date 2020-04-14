@@ -1,0 +1,34 @@
+{
+  "name": "@supercharge/tsconfig",
+  "description": "Shared TypeScript config for Supercharge projects",
+  "version": "0.0.0",
+  "author": "Marcus Pöhls <marcus@superchargejs.com>",
+  "bugs": {
+    "url": "https://github.com/supercharge/tsconfig/issues"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "homepage": "https://github.com/supercharge/tsconfig",
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration",
+    "supercharge",
+    "superchargejs"
+  ],
+  "license": "MIT",
+  "main": "tsconfig.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supercharge/tsconfig.git"
+  }
+}

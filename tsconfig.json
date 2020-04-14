@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es2017", // Node.js 8
+    "module": "commonjs",
+    "lib": [
+      "es2018"
+    ],
+    "outDir": "dist",
+    "newLine": "lf",
+    "noUnusedLocals": true,
+    "removeComments": false,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "noUnusedParameters": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  // "include": [
+  //   "./**/*"
+  // ],
+  // "exclude": [
+  //   "./node_modules",
+  //   "./dist"
+  // ]
+}
