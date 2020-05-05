@@ -5,7 +5,7 @@
   <br/>
   <br/>
   <p>
-    <h3>TypeScript Config</h3>
+    <h3>Supercharge shareable TypeScript Config</h3>
   </p>
   <p>
     Shared TypeScript config for Supercharge projects
@@ -35,7 +35,7 @@ npm i -D @supercharge/tsconfig
 
 
 ## Usage
-Create a  `tsconfig.json` file in your project and extends the `@supercharge/tsconfig` [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html):
+Create a `tsconfig.json` file in your project and extends the `@supercharge/tsconfig` [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html):
 
 ```json
 {

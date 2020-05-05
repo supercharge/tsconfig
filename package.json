@@ -1,6 +1,6 @@
 {
   "name": "@supercharge/tsconfig",
-  "description": "Shared TypeScript config for Supercharge projects",
+  "description": "Shareable TypeScript config for Supercharge projects",
   "version": "0.0.0",
   "author": "Marcus Pöhls <marcus@superchargejs.com>",
   "bugs": {
