@@ -1,0 +1,23 @@
+name: Publish in GitHub Package Registry
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  publish-gpr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v1
+
+      - name: Publish to GitHub Package Registry
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GH_PUBLISH_GPR_TOKEN}}
+        # Workaround:
+        #   - create a local `.npmrc` file defining the registry URL
+        #   - then go ahead and publish the package
+        run: |
+          echo registry=https://npm.pkg.github.com/supercharge >> .npmrc
+          npm publish
