@@ -43,9 +43,10 @@ Create a `tsconfig.json` file in your project and extends the `@supercharge/tsco
   "extends": "@supercharge/tsconfig",
   "compilerOptions": {
     "outDir": "dist",
-    "target": "es2018",
+    "target": "es2019", // Node.js v12
     "lib": [
-      "es2018"
+      "es2019",
+      "DOM"
     ]
   }
 }
