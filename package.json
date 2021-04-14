@@ -6,9 +6,6 @@
   "bugs": {
     "url": "https://github.com/supercharge/tsconfig/issues"
   },
-  "engines": {
-    "node": ">=8"
-  },
   "files": [
     "tsconfig.json"
   ],
