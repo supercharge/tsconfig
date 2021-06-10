@@ -10,14 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+
+      - name: Configure GitHub Package Registry as Publish Target
+        uses: actions/setup-node@v2
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@supercharge'
 
       - name: Publish to GitHub Package Registry
+        run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GH_PUBLISH_GPR_TOKEN}}
-        # Workaround:
-        #   - create a local `.npmrc` file defining the registry URL
-        #   - then go ahead and publish the package
-        run: |
-          echo registry=https://npm.pkg.github.com/supercharge >> .npmrc
-          npm publish
+          NODE_AUTH_TOKEN: ${{ secrets.GH_PUBLISH_GPR_TOKEN }}
