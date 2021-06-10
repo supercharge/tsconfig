@@ -39,6 +39,7 @@ npm i -D @supercharge/tsconfig
 
 | Major Release | Node.js version |
 | --- | --- |
+| `v3` | `14.x` |
 | `v2` | `12.x` |
 | `v1` | `8.x` |
 
