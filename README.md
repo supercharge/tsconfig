@@ -35,6 +35,14 @@ npm i -D @supercharge/tsconfig
 ```
 
 
+## Targets
+
+| Major Release | Node.js version |
+| --- | --- |
+| `v2` | `12.x` |
+| `v1` | `8.x` |
+
+
 ## Usage
 Create a `tsconfig.json` file in your project and extends the `@supercharge/tsconfig` [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html):
 
