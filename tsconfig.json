@@ -1,10 +1,14 @@
 {
+  "display": "Node 12",
   "compilerOptions": {
-    "target": "es2019", // Node.js v12
+    "target": "es2019",
     "declaration": true,
     "module": "commonjs",
     "lib": [
       "es2019",
+      "es2020.promise",
+      "es2020.bigint",
+      "es2020.string",
       "DOM"
     ],
     "outDir": "dist",
