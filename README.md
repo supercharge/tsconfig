@@ -38,19 +38,36 @@ npm i -D @supercharge/tsconfig
 ## Usage
 Create a `tsconfig.json` file in your project and extends the `@supercharge/tsconfig` [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html):
 
+### Basic Usage
+When installed, configure your `tsconfig.json` like this:
+
 ```json
 {
   "extends": "@supercharge/tsconfig",
   "compilerOptions": {
-    "outDir": "dist",
-    "target": "es2019", // Node.js v12
-    "lib": [
-      "es2019",
-      "DOM"
-    ]
+    "outDir": "dist"
   }
 }
 ```
+
+
+### Refined Configuration
+You can refine your `tsconfig.json` to your needs. Let’s say you want to target Node.js v14 instead of v12 (which is the default). Change your `compilerOptions` to this:
+
+```json
+{
+  "extends": "@supercharge/tsconfig",
+  "display": "Node 14",
+
+  "compilerOptions": {
+    "outDir": "dist",
+    "lib": ["es2020"],
+    "target": "es2020",
+  }
+}
+```
+
+Customizing your `compilerOptions` when extending the `@supercharge/tsconfig` package only overrides the listed properties. Every other option defined in the base configuration will be inherited.
 
 
 ## Contributing
