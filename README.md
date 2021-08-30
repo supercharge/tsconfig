@@ -38,10 +38,10 @@ npm i -D @supercharge/tsconfig
 ## Targets
 
 | Major Release | Node.js version |
-| --- | --- |
-| `v3` | `14.x` |
-| `v2` | `12.x` |
-| `v1` | `8.x` |
+| ------------- | --------------- |
+| `3.x`         | `14.x`          |
+| `2.x`         | `12.x`          |
+| `1.x`         | `8.x`           |
 
 
 ## Usage
