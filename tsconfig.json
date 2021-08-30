@@ -13,6 +13,7 @@
     "newLine": "lf",
     "strict": true,
     "moduleResolution": "node",
+    "noImplicitOverride": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "noUnusedLocals": true,
