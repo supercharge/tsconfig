@@ -1,9 +1,9 @@
 {
   "display": "Node 14",
   "compilerOptions": {
-    "target": "es2020",
+    "target": "ES2020",
     "declaration": true,
-    "module": "commonjs",
+    "module": "CommonJS",
     "lib": [
       "ES2020",
       "DOM",
@@ -12,7 +12,7 @@
     "outDir": "dist",
     "newLine": "lf",
     "strict": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "noImplicitOverride": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
