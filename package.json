@@ -1,10 +1,13 @@
 {
   "name": "@supercharge/tsconfig",
-  "description": "Shareable TypeScript config for Supercharge projects",
+  "description": "Shareable TypeScript config",
   "version": "3.0.0",
   "author": "Marcus Pöhls <marcus@superchargejs.com>",
   "bugs": {
     "url": "https://github.com/supercharge/tsconfig/issues"
+  },
+  "engines": {
+    "node": ">=12"
   },
   "files": [
     "tsconfig.json"
