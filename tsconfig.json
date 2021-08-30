@@ -5,7 +5,9 @@
     "declaration": true,
     "module": "commonjs",
     "lib": [
-      "es2020"
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
     ],
     "outDir": "dist",
     "newLine": "lf",
