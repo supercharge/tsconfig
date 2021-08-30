@@ -5,11 +5,12 @@
     "declaration": true,
     "module": "commonjs",
     "lib": [
-      "es2019",
-      "es2020.promise",
-      "es2020.bigint",
-      "es2020.string",
-      "DOM"
+      "ES2019",
+      "ES2020.Promise",
+      "ES2020.BigInt",
+      "ES2020.String",
+      "DOM",
+      "DOM.Iterable"
     ],
     "outDir": "dist",
     "newLine": "lf",
