@@ -6,6 +6,7 @@
 ### Added
 - add `DOM` and `DOM.Iterable` to libs
 - add `noImplicitOverride: true` option
+- add `engine` property to `package.json` requiring `Node.js >= 12`
 
 
 ## [3.0.0](https://github.com/supercharge/tsconfig/compare/v2.0.0...v3.0.0) - 2021-06-10
