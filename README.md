@@ -39,6 +39,7 @@ npm i -D @supercharge/tsconfig
 
 | Major Release | Node.js version |
 | ------------- | --------------- |
+| `4.x`         | `16.x`          |
 | `3.x`         | `14.x`          |
 | `2.x`         | `12.x`          |
 | `1.x`         | `8.x`           |
@@ -66,12 +67,12 @@ You can refine your `tsconfig.json` to your needs. Let’s say you want to targe
 ```json
 {
   "extends": "@supercharge/tsconfig",
-  "display": "Node 14",
+  "display": "Node 16",
 
   "compilerOptions": {
     "outDir": "dist",
-    "lib": ["es2020"],
-    "target": "es2020",
+    "lib": ["es2021"],
+    "target": "es2021",
   }
 }
 ```
