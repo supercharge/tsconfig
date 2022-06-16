@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [4.0.0](https://github.com/supercharge/tsconfig/compare/v3.0.0...v4.0.0) - 2022-06-16
+
+### Added
+- add `allowUnreachableCode: false` rule
+- add `forceConsistentCasingInFileNames: true` rule
+
+### Updated
+- bump `target` and `lib` to Node.js 16
+- bump `engine` property in `package.json` to `Node.js >= 16`
+
+
 ## [3.1.0](https://github.com/supercharge/tsconfig/compare/v3.0.0...v3.1.0) - 2021-08-30
 
 ### Added
