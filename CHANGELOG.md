@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [5.0.0](https://github.com/supercharge/tsconfig/compare/v4.0.0...v5.0.0) - 2023-07-22
+
+### Updated
+- bump `target` and `lib` to Node.js 18
+- bump `engine` property in `package.json` to `Node.js >= 18`
+
+### Breaking Changes
+- target Node.js v18
+
+
 ## [4.0.0](https://github.com/supercharge/tsconfig/compare/v3.0.0...v4.0.0) - 2022-06-16
 
 ### Added
@@ -10,6 +20,9 @@
 ### Updated
 - bump `target` and `lib` to Node.js 16
 - bump `engine` property in `package.json` to `Node.js >= 16`
+
+### Breaking Changes
+- target Node.js v16
 
 
 ## [3.1.0](https://github.com/supercharge/tsconfig/compare/v3.0.0...v3.1.0) - 2021-08-30

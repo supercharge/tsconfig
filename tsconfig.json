@@ -1,11 +1,11 @@
 {
-  "display": "Node 16",
+  "display": "Node 18",
   "compilerOptions": {
-    "target": "ES2021",
+    "target": "ES2022",
     "declaration": true,
     "module": "CommonJS",
     "lib": [
-      "ES2021",
+      "ES2022",
       "DOM",
       "DOM.Iterable"
     ],
