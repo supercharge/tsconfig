@@ -3,6 +3,11 @@
 
 ## [5.0.0](https://github.com/supercharge/tsconfig/compare/v4.0.0...v5.0.0) - 2023-07-22
 
+### Added
+- add [`noImplicitReturns: true`](https://www.typescriptlang.org/tsconfig#noImplicitReturns) rule
+- add [`noUncheckedIndexedAccess: true`](https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess) rule
+- add [`noFallthroughCasesInSwitch: true`](https://www.typescriptlang.org/tsconfig#noFallthroughCasesInSwitch) rule
+
 ### Updated
 - bump `target` and `lib` to Node.js 18
 - bump `engine` property in `package.json` to `Node.js >= 18`
