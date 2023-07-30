@@ -1,18 +1,21 @@
 {
   "display": "Node 18",
   "compilerOptions": {
-    "target": "ES2022",
     "declaration": true,
-    "module": "CommonJS",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "moduleDetection": "auto", // https://www.typescriptlang.org/tsconfig#moduleDetection
+
+    "target": "ES2022",
     "lib": [
-      "ES2022",
+      "ES2023",
       "DOM",
       "DOM.Iterable"
     ],
+
     "strict": true,
     "outDir": "dist",
     "newLine": "lf",
-    "moduleResolution": "Node",
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true, // allows default imports for CommonJS packages - https://www.typescriptlang.org/tsconfig#allowSyntheticDefaultImports
     "esModuleInterop": true,
