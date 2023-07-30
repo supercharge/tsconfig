@@ -37,13 +37,13 @@ npm i -D @supercharge/tsconfig
 
 ## Targets
 
-| Major Release | Node.js version |
-| ------------- | --------------- |
-| `5.x`         | `18.x`          |
-| `4.x`         | `16.x`          |
-| `3.x`         | `14.x`          |
-| `2.x`         | `12.x`          |
-| `1.x`         | `8.x`           |
+| Major Release | Node.js version | Module System |
+| ------------- | --------------- | ------------  |
+| `5.x`         | `18.x`          | CommonJS      |
+| `4.x`         | `16.x`          | CommonJS      |
+| `3.x`         | `14.x`          | CommonJS      |
+| `2.x`         | `12.x`          | CommonJS      |
+| `1.x`         | `8.x`           | CommonJS      |
 
 
 ## Usage
