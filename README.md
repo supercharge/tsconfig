@@ -39,6 +39,7 @@ npm i -D @supercharge/tsconfig
 
 | Major Release | Node.js version | Module System |
 | ------------- | --------------- | ------------  |
+| `7.x`         | `20.x`          | ESM           |
 | `6.x`         | `20.x`          | CommonJS      |
 | `5.x`         | `18.x`          | CommonJS      |
 | `4.x`         | `16.x`          | CommonJS      |

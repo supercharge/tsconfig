@@ -1,18 +1,21 @@
 {
-  "display": "Node 18",
+  "display": "Node 20",
   "compilerOptions": {
     "target": "ES2022",
-    "declaration": true,
-    "module": "CommonJS",
+    "declaration": true, // https://www.typescriptlang.org/tsconfig#declaration
+    //
+    "module": "NodeNext", // https://www.typescriptlang.org/tsconfig#module
+    "moduleDetection": "force", // https://www.typescriptlang.org/tsconfig#moduleDetection
+    "moduleResolution": "NodeNext", // https://www.typescriptlang.org/tsconfig#moduleResolution
     "lib": [
       "ES2023",
       "DOM",
       "DOM.Iterable"
     ],
+    //
     "strict": true,
     "outDir": "dist",
     "newLine": "lf",
-    "moduleResolution": "Node",
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true, // allows default imports for CommonJS packages - https://www.typescriptlang.org/tsconfig#allowSyntheticDefaultImports
     "esModuleInterop": true,
@@ -25,8 +28,10 @@
     "removeComments": false,
     "resolveJsonModule": true,
     "strictNullChecks": true,
-    "allowUnreachableCode": false
+    "allowUnreachableCode": false,
+    "skipLibCheck": true,
   },
+  //
   // "include": [
   //   "./**/*"
   // ],
