@@ -6,6 +6,7 @@
 ### Added
 - add [`skipLibCheck: true`](https://www.typescriptlang.org/tsconfig#skipLibCheck) rule
 - add [`moduleDetection: 'force'`](https://www.typescriptlang.org/tsconfig#skipLibCheck) rule
+## [6.0.0](https://github.com/supercharge/tsconfig/compare/v5.0.0...v6.0.0) - 2023-10-15
 
 ### Updated
 - bump `target` and `lib` to Node.js 20
@@ -13,6 +14,16 @@
 - change `module` from `CommonJS` to `ESNext`
 - change `moduleResolution` from `Node` to `NodeNext`
 - change `compilerOptions.lib` from `2022` to `2023`
+
+### Breaking Changes
+- target Node.js v20 with ESM
+
+
+## [6.0.0](https://github.com/supercharge/tsconfig/compare/v5.0.0...v6.0.0) - 2023-10-15
+
+### Updated
+- bump `target` and `lib` to Node.js 20
+- bump `engine` property in `package.json` to `Node.js >= 20`
 
 ### Breaking Changes
 - target Node.js v20
