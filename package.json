@@ -30,5 +30,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/supercharge/tsconfig.git"
+  },
+  "scripts": {
+    "test": "echo done"
   }
 }
