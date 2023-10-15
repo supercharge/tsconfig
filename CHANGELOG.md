@@ -1,6 +1,23 @@
 # Changelog
 
 
+## [7.0.0](https://github.com/supercharge/tsconfig/compare/v6.0.0...v7.0.0) - 2023-10-15
+
+### Added
+- add [`skipLibCheck: true`](https://www.typescriptlang.org/tsconfig#skipLibCheck) rule
+- add [`moduleDetection: 'force'`](https://www.typescriptlang.org/tsconfig#skipLibCheck) rule
+
+### Updated
+- bump `target` and `lib` to Node.js 20
+- bump `engine` property in `package.json` to `Node.js >= 20`
+- change `module` from `CommonJS` to `ESNext`
+- change `moduleResolution` from `Node` to `NodeNext`
+- change `compilerOptions.lib` from `2022` to `2023`
+
+### Breaking Changes
+- target Node.js v20
+
+
 ## [5.0.0](https://github.com/supercharge/tsconfig/compare/v4.0.0...v5.0.0) - 2023-07-22
 
 ### Added

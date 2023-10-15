@@ -15,6 +15,7 @@
   "homepage": "https://github.com/supercharge/tsconfig",
   "keywords": [
     "tsconfig",
+    "esm",
     "typescript",
     "ts",
     "config",
