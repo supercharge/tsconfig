@@ -1,6 +1,24 @@
 # Changelog
 
 
+## [8.0.1](https://github.com/supercharge/tsconfig/compare/v8.0.0...v8.0.1) - 2024-05-04
+
+### Updated
+- bump `engine` property in `package.json` to `Node.js >= 22`
+
+
+## [8.0.0](https://github.com/supercharge/tsconfig/compare/v7.0.0...v8.0.0) - 2024-05-04
+
+### Updated
+- bump `target` to `ES2023` because Node.js 22 supports it (https://node.green/#ES2023)
+- bump `engine` property in `package.json` to `Node.js >= 22`
+
+### Breaking Changes
+- target Node.js v22
+
+**Notice:** version `8.0.0` requires TypeScript version 5.5 or later with support for ES2023. At the time of writing this release note, TypeScript 5.5 is in beta stage. Please don’t upgrade if you’re not fine with running a TypeScript beta version.
+
+
 ## [7.0.0](https://github.com/supercharge/tsconfig/compare/v6.0.0...v7.0.0) - 2023-10-15
 
 ### Added
