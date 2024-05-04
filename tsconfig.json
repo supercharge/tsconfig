@@ -1,7 +1,7 @@
 {
-  "display": "Node 20",
+  "display": "Node 22",
   "compilerOptions": {
-    "target": "ES2022",
+    "target": "ES2023",
     "declaration": true, // https://www.typescriptlang.org/tsconfig#declaration
     //
     "module": "NodeNext", // https://www.typescriptlang.org/tsconfig#module

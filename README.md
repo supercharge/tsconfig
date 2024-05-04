@@ -39,6 +39,7 @@ npm i -D @supercharge/tsconfig
 
 | Major Release | Node.js version | Module System |
 | ------------- | --------------- | ------------  |
+| `8.x`         | `22.x`          | ESM           |
 | `7.x`         | `20.x`          | ESM           |
 | `6.x`         | `20.x`          | CommonJS      |
 | `5.x`         | `18.x`          | CommonJS      |
@@ -65,17 +66,17 @@ When installed, configure your `tsconfig.json` like this:
 
 
 ### Refined Configuration
-You can refine your `tsconfig.json` to your needs. Let’s say you want to target Node.js v14 instead of v12 (which is the default). Change your `compilerOptions` to this:
+You can refine your `tsconfig.json` to your needs. Let’s say you want to target Node.js v16. Change your `compilerOptions` to this:
 
 ```json
 {
   "extends": "@supercharge/tsconfig",
-  "display": "Node 16",
+  "display": "Node.js v16",
 
   "compilerOptions": {
     "outDir": "dist",
-    "lib": ["es2021"],
-    "target": "es2021",
+    "target": "ES2021",
+    "lib": ["ES2021"]
   }
 }
 ```
